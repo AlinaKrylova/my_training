@@ -12,7 +12,6 @@ for item in Students:
     Average_Grades = []
     Grades += (input(item + " -> ",  )).split(',')
     Average_Grades +=  [round(sum(int(s) for s in Grades if s.isdigit()) / len(Grades),2)]
-    print(Average_Grades)
     List_.update({item: float(s) for s in Average_Grades})
 
 print(List_)
