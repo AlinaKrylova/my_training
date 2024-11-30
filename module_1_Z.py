@@ -3,8 +3,6 @@ Students = Students.replace(' ','').split(',')
 Students = sorted(Students)
 print()
 
-
-
 List_= {}
 
 print('Введите оценки через запятую:')
