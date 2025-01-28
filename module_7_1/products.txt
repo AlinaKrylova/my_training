@@ -1,0 +1,3 @@
+Apple, 5, Fruit
+Potato, 14, Vegetables
+Strawberry, 1.5, Berries
